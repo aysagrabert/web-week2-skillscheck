@@ -2,36 +2,44 @@
 
 // Create a variable called 'myName' that's value is your name
 
-// Code here
+let myName = ('aysa');// Code here
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' that's value is your favorite number
 
-//Code here
+let faveNum = 18//Code here
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and set it to true
 
-//Code here
+let lovesCode = true//Code here
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, num1 and num2, and returns the sum of those two parameters.
 
-//Code here
+function sum (num1, num2){
+return num1 + num2
+}
+
 
 //////////////////PROBLEM 5////////////////////
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called x. Check to see if x is equal to true. If it is, return true as a boolean. If x does not equal true, return false as a boolean
 
-//Code here
+function lovesCodeChecker(x){
+	if(lovesCodeChecker === ){
+		return 'true'}
+		else 
+}
 
 //////////////////PROBLEM 6////////////////////
 
 // Create a function called 'oddChecker' that takes in one parameter, num. Check to see if the number is even or odd. If it is odd, return 'the number is odd' or return 'the number is even' if it is even.
 
+	
 //Code here
 
 //////////////////PROBLEM 7////////////////////
@@ -45,26 +53,35 @@
 // Create a copy of the faveColors array called 'colorCopy' using slice
 const faveColors = ['red', 'green', 'black']
 
-//Code Here
+const colorCopy = faveColors.slice();//Code Here
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push
 
-//Code Here
+colorCopy.push("orange")//Code Here
 
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
-//Code Here
+let middleNums  = numbers.filter(function(element){
+	return element %2 === 0
+  })
+  //Code Here
 
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has these keys with the correct values: firstName, state, age, greeter. firstName will be your name as a string. state will be your current state or providence as a string. age will be your age as a number. greeter will be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the correct values
 
-//Code Here
+let me{
+	firstName : "Aysa",
+	state : "Utah",
+	age : 18,
+	
+
+}
 
 //////////////////PROBLEM 12////////////////////
 
@@ -88,25 +105,31 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
-// Code Here
+let doubled = myNumbers.map(function(element){
+	return element * 2
+})// Code Here
 
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
-// Code Here
+let filtered = myNumbers.filter(function(element){
+	return element > 100;
+})// Code Here
 
 //////////////////PROBLEM 16////////////////////
 
 // Next up, reduce to get the total of the array. call the new array 'total'
 
-// Code Here
+var total = myNumbers.reduce(function(doubled, filtered){
+	return doubled + filtered;
+})// Code Here
 
 //////////////////PROBLEM 17////////////////////
 
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
-// Code Here
+ // Code Here
 
 //////////////////PROBLEM 18////////////////////
 
